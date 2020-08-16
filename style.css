@@ -28,77 +28,37 @@ body , *{
   outline: none !important;
 }
 
-#content{
+#wrapper{
   background: var(--light-gray-10)!important;
 }
 
-#puzzle{
-  border-radius: 50px;
-  box-shadow: none;
-  background-color: var(--white)!important;
-  border: 1px solid var(--light-gray)!important;
+
+
+
+/* check solve button */
+#checkSolutionBtn{
+  background: var(--light-green)!important;
+  color: var(--dark-green)!important;
+  padding: 21px 23px!important;
+  width: 80px!important;
+  height: 80px!important;
+  -webkit-box-shadow: none!important;
+          box-shadow: none!important;
+  font-size: 30px!important;
+  border: 2px solid var(--dark-green)!important;
+  margin: 5px 10px!important;
 }
 
-
-#puzzle [onmousedown = 'mouseDown(event)'] {
-  border: 15px solid var(--white)!important;
+#checkSolutionBtn:hover{
+  opacity: 0.7!important;
 }
 
-.selectedButton{
-  background: var(--light-tifany-10) !important;
-  border-bottom: none !important;
-  border: 1px solid var(--tifany) !important;
-  color: var(--light-black)!important;
-  border-radius:20px 20px 0 0!important;
-  padding: 20px !important;
-  box-shadow: 0px 0px 0px 1px var(--tifany) !important; 
+td{
+    color: var(--light-black)!important;
 }
 
-.selectedButton:hover {
-  background: var(--light-tifany-10) !important;
-  border-bottom: none !important;
-  border: 1px solid var(--tifany) !important;
-  color: var(--light-black)!important;
-  border-radius:20px 20px 0 0!important;
-  padding: 20px !important;
-  box-shadow: 0px 0px 0px 1px var(--tifany) !important; 
-}
-
-
-.btnlink:hover {
-  color: var(--light-black)!important;
-  border: 1px solid var(--light-gray); 
-  box-shadow: none !important; 
-  padding: 20px !important; 
-  background-color: var(--white);
-  border-radius:20px 20px 0 0!important;
-}
-
-.btnlink{
-  color: var(--light-black)!important;
-  border: 1px solid var(--light-gray);
-  box-shadow: none ;
-  padding: 20px !important; 
-  background-color: var(--white);
-  border-radius:20px 20px 0 0!important;
-}
-
-#messagePanel{
-  background: var(--white) !important;
-  padding: 80px!important;
-  border:none!important;
-  font-size: 18px!important;
-}
-
-#messagePanel .btnlink {
-  font-size: 120%!important;
-  width: 100%!important;
-  margin: 25px 0 0!important;
-  padding: 5px!important;
-  border: none!important;
-  color: var(--white)!important;
-  background: var(--blue)!important;
-  border-radius: 50px !important;
+.glyphicon {
+  font-family: 'Glyphicons Halflings'!important;
 }
 
 
@@ -161,28 +121,3 @@ body , *{
     background: linear-gradient(to bottom, var(--white),var(--black));
 }
 
-/* check solve button */
-#checkSolutionBtn{
-  background: var(--light-green)!important;
-  color: var(--dark-green)!important;
-  padding: 21px 23px!important;
-  width: 80px!important;
-  height: 80px!important;
-  -webkit-box-shadow: none!important;
-          box-shadow: none!important;
-  font-size: 30px!important;
-  border: 2px solid var(--dark-green)!important;
-  margin: 5px 10px!important;
-}
-
-#checkSolutionBtn:hover{
-  opacity: 0.7!important;
-}
-
-td{
-    color: var(--light-black)!important;
-}
-
-.glyphicon {
-  font-family: 'Glyphicons Halflings'!important;
-}
