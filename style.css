@@ -160,3 +160,29 @@ body , *{
     background: -webkit-gradient(linear, left top, left bottom, from(var(--white)),to(var(--black)));
     background: linear-gradient(to bottom, var(--white),var(--black));
 }
+
+/* check solve button */
+#checkSolutionBtn{
+  background: var(--light-green)!important;
+  color: var(--dark-green)!important;
+  padding: 21px 23px!important;
+  width: 80px!important;
+  height: 80px!important;
+  -webkit-box-shadow: none!important;
+          box-shadow: none!important;
+  font-size: 30px!important;
+  border: 2px solid var(--dark-green)!important;
+  margin: 5px 10px!important;
+}
+
+#checkSolutionBtn:hover{
+  opacity: 0.7!important;
+}
+
+td{
+    color: var(--light-black)!important;
+}
+
+.glyphicon {
+  font-family: 'Glyphicons Halflings'!important;
+}
