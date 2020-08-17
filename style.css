@@ -86,7 +86,7 @@ body , *{
 }
 
 /* hide modal */
-.modal-open .modal{
+.modal-open .modal , .modal.in .modal-dialog{
   display: none !important;
 }
 .modal-backdrop{
