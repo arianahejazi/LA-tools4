@@ -13,6 +13,7 @@
   --white : #ffffff;
   --light-black :#353535;
   --black: #000000;
+  --light-green-10: #edf9ec;
   --light-green:#b0e4b4;
   --dark-green:#3b533d;
   --light-red:#ffacaa;
@@ -36,11 +37,11 @@ body , *{
   color: var(--light-black) !important;
   box-shadow: none!important;
   border-radius: 50% !important;
-  padding: 6px 18px !important;
   font-size: 15px !important;
   border: 1px solid var(--light-gray) !important;
   right: -45px !important;
-    top: -22px !important;
+  width: 30px;
+  height: 30px
 }
 
 .card.vertical {
@@ -67,11 +68,14 @@ body , *{
 }
 
 .card.correct{
-  ba
+  background:var(--light-green-10)!important;
+  border: 1px solid var(--light-green)!important;
+
 }
 
 .card.wrong{
-
+  background: var(--light-red)!important;
+  border: 1px solid var(--red)!important;
 }
 
 
@@ -160,4 +164,3 @@ td{
     background: -webkit-gradient(linear, left top, left bottom, from(var(--white)),to(var(--black)));
     background: linear-gradient(to bottom, var(--white),var(--black));
 }
-
