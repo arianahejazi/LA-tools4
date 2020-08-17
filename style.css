@@ -68,6 +68,12 @@ body , *{
   border-radius: 50% !important;
 }
 
+.card .playMediaBtn{
+  color: var(--light-black);
+  border-radius: 50px;
+  background:var(--light-gray-10);
+}
+
 .card.correct{
   background:var(--light-green-10)!important;
   border: 1px solid var(--light-green)!important;
@@ -77,6 +83,14 @@ body , *{
 .card.wrong{
   background: var(--light-red-10)!important;
   border: 1px solid var(--light-red)!important;
+}
+
+/* hide modal */
+.modal-open .modal{
+  display: none !important;
+}
+.modal-backdrop{
+  display: none !important;
 }
 
 
